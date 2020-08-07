@@ -24,7 +24,7 @@ namespace Solid_OpenClosePrinciple
 
             foreach (var emp in employees)
             {
-                Console.WriteLine($"{emp.FirstName} {emp.LastName} {emp.EmailAddress} IsManager: {emp.IsManager}");
+                Console.WriteLine($"{emp.FirstName} {emp.LastName} {emp.EmailAddress} IsManager: {emp.IsManager} IsExecutive: {emp.IsExecutive}");
             }
 
             Console.ReadLine();
