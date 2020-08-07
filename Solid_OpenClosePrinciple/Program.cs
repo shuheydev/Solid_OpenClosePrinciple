@@ -15,11 +15,10 @@ namespace Solid_OpenClosePrinciple
             };
 
             List<EmployeeModel> employees = new List<EmployeeModel>();
-            Accounts accountProcessor = new Accounts();
 
             foreach (var person in applicants)
             {
-                employees.Add(accountProcessor.Create(person));
+                employees.Add(person.AccountProcessor.Create(person));
             }
 
             foreach (var emp in employees)
