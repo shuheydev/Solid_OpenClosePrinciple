@@ -7,7 +7,7 @@ namespace Solid_OpenClosePrinciple
     {
         private static void Main(string[] args)
         {
-            List<PersonModel> applicants = new List<PersonModel>
+            List<IApplicantModel> applicants = new List<IApplicantModel>
             {
                 new PersonModel{FirstName="太郎", LastName="山田"},
                 new PersonModel{FirstName="一郎", LastName="鈴木"},
