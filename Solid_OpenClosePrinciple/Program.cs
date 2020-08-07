@@ -11,7 +11,7 @@ namespace Solid_OpenClosePrinciple
             {
                 new PersonModel{FirstName="太郎", LastName="山田"},
                 new ManagerModel{FirstName="一郎", LastName="鈴木"},
-                new PersonModel{FirstName="浩一", LastName="佐藤"},
+                new ExecutiveModel{FirstName="浩一", LastName="佐藤"},
             };
 
             List<EmployeeModel> employees = new List<EmployeeModel>();
