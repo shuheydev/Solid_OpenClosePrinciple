@@ -10,7 +10,7 @@ namespace Solid_OpenClosePrinciple
             List<IApplicantModel> applicants = new List<IApplicantModel>
             {
                 new PersonModel{FirstName="太郎", LastName="山田"},
-                new PersonModel{FirstName="一郎", LastName="鈴木"},
+                new ManagerModel{FirstName="一郎", LastName="鈴木"},
                 new PersonModel{FirstName="浩一", LastName="佐藤"},
             };
 
