@@ -6,6 +6,7 @@
         public string LastName { get; set; }
         public string EmailAddress { get; set; }
         public bool IsManager { get; set; } = false;
-        public bool  IsExecutive { get; set; }
+        public bool IsExecutive { get; set; } = false;
+        public bool IsTechnician { get; set; } = false;
     }
 }
